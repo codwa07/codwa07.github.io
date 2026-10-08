@@ -1,43 +1,168 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Coming Soon - Codwa07</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Background Video-->
-        <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="assets/mp4/bg.mp4" type="video/mp4" /></video>
-        <!-- Masthead-->
-        <div class="masthead">
-            <div class="masthead-content text-white">
-                <div class="container-fluid px-4 px-lg-0">
-                    <h1 class="fst-italic lh-1 mb-4">Website Coming Soon</h1>
-                    <p class="mb-5">We're working hard to finish the development of this site. Thank you for your patience!</p>
-                </div>
-            </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Codwa07 — a digital resume and portfolio.">
+    <meta name="theme-color" content="#f4f1eb">
+    <title>Codwa07 — Digital Resume</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <a class="wordmark" href="#top" aria-label="Codwa07 home">
+        <span class="wordmark-mark" aria-hidden="true">c</span>
+        <span>codwa<span class="wordmark-number">07</span></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="menu-toggle-label">Menu</span>
+        <span class="menu-toggle-icon" aria-hidden="true"><i></i><i></i></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-resume" href="#contact"><span>Let’s talk</span><span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section id="top" class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow"><span class="eyebrow-dot"></span>Digital resume / 2024—present</p>
+          <h1>Hi, I’m<br><span class="outline-text">Codwa</span><span class="accent-mark">✳</span></h1>
+          <p class="hero-intro">A thoughtful builder creating useful, clear, and memorable digital experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#experience">View experience <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
-        <!-- Social Icons-->
-        <!-- <div class="social-icons">
-            <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-instagram"></i></a>
-            </div>
-        </div> -->
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        
-    </body>
+        <div class="hero-aside">
+          <div class="portrait-card" aria-label="Profile card">
+            <div class="portrait-orbit portrait-orbit-one"></div>
+            <div class="portrait-orbit portrait-orbit-two"></div>
+            <div class="portrait-initials" aria-hidden="true">C<span>W</span></div>
+            <span class="portrait-label">Available for<br>interesting work</span>
+            <span class="portrait-index">01 / 05</span>
+          </div>
+          <p class="hero-note">Based wherever good work happens<br><span>Currently open to new opportunities</span></p>
+        </div>
+        <div class="scroll-cue" aria-hidden="true"><span>Scroll to explore</span><i></i></div>
+      </section>
+
+      <section id="about" class="content-section section-shell">
+        <div class="section-heading">
+          <p class="section-number">01</p>
+          <p class="eyebrow">The short version</p>
+        </div>
+        <div class="about-grid">
+          <div>
+            <h2>I make the complicated<br><em>feel simple.</em></h2>
+          </div>
+          <div class="about-copy">
+            <p class="lede">I’m a curious, detail-oriented professional who enjoys turning open questions into clear paths forward.</p>
+            <p>My work sits at the intersection of strategy, technology, and communication. I care about the details, but I’m always looking for the bigger picture: what is the real problem, who are we solving it for, and how can we make the result better?</p>
+            <a class="text-link" href="#contact">More about my approach <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="principles" aria-label="Working principles">
+          <div class="principle"><span>01</span><strong>Stay curious</strong><p>Ask better questions before reaching for answers.</p></div>
+          <div class="principle"><span>02</span><strong>Make it clear</strong><p>Good work should be easy to understand and use.</p></div>
+          <div class="principle"><span>03</span><strong>Leave it better</strong><p>Improve the system, not just the immediate output.</p></div>
+        </div>
+      </section>
+
+      <section id="experience" class="content-section section-shell section-tinted">
+        <div class="section-heading">
+          <p class="section-number">02</p>
+          <p class="eyebrow">Where I’ve been</p>
+        </div>
+        <div class="section-intro-row">
+          <h2>Experience that<br><em>moves things forward.</em></h2>
+          <p>Selected roles and projects. This is the space to add the details that matter most: outcomes, ownership, and the difference the work made.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">2024 — Now</div>
+            <div class="timeline-role"><h3>Your current role</h3><p class="company">Company name <span>•</span> Location / Remote</p></div>
+            <p class="timeline-description">A concise description of your scope, the problems you own, and one measurable result. Keep this to two or three lines so the strongest work stands out.</p>
+            <span class="timeline-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2022 — 2024</div>
+            <div class="timeline-role"><h3>Previous role</h3><p class="company">Company name <span>•</span> Location / Remote</p></div>
+            <p class="timeline-description">Use this entry for the work that shows how you think, collaborate, and create momentum. Replace this placeholder with your strongest accomplishment.</p>
+            <span class="timeline-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">Earlier</div>
+            <div class="timeline-role"><h3>Earlier experience</h3><p class="company">Company name <span>•</span> Location / Remote</p></div>
+            <p class="timeline-description">A short, high-signal summary of the experience that shaped your perspective and the skills you bring to the table today.</p>
+            <span class="timeline-arrow" aria-hidden="true">↗</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="content-section section-shell">
+        <div class="section-heading">
+          <p class="section-number">03</p>
+          <p class="eyebrow">Selected work</p>
+        </div>
+        <div class="section-intro-row work-intro">
+          <h2>A few things<br><em>worth sharing.</em></h2>
+          <p>Projects are where the thinking becomes tangible. Add case studies, launches, or experiments that show what you can do.</p>
+        </div>
+        <div class="project-grid">
+          <a class="project-card project-card-large" href="#contact">
+            <div class="project-art project-art-coral"><span class="art-window"><i></i><i></i><i></i><b>the idea<br>becomes real</b></span></div>
+            <div class="project-meta"><div><span class="project-type">01 / Case study</span><h3>Project name</h3></div><span class="project-link" aria-hidden="true">↗</span></div>
+          </a>
+          <a class="project-card" href="#contact">
+            <div class="project-art project-art-blue"><span class="art-lines"></span><span class="art-sun"></span><span class="art-caption">make space<br>for better ideas</span></div>
+            <div class="project-meta"><div><span class="project-type">02 / Initiative</span><h3>Project name</h3></div><span class="project-link" aria-hidden="true">↗</span></div>
+          </a>
+          <a class="project-card" href="#contact">
+            <div class="project-art project-art-yellow"><span class="art-stamp">BUILD<br>WITH<br>CARE</span><span class="art-scribble">✳</span></div>
+            <div class="project-meta"><div><span class="project-type">03 / Experiment</span><h3>Project name</h3></div><span class="project-link" aria-hidden="true">↗</span></div>
+          </a>
+        </div>
+      </section>
+
+      <section class="skills-section section-shell">
+        <div class="section-heading"><p class="section-number">04</p><p class="eyebrow">What I bring</p></div>
+        <div class="skills-layout">
+          <h2>A practical mix of<br><em>skills and instincts.</em></h2>
+          <div class="skill-list">
+            <div class="skill-row"><span>01</span><strong>Strategy &amp; thinking</strong><p>Research · Planning · Systems thinking</p></div>
+            <div class="skill-row"><span>02</span><strong>Making &amp; building</strong><p>Design · Development · Prototyping</p></div>
+            <div class="skill-row"><span>03</span><strong>Working with people</strong><p>Communication · Collaboration · Leadership</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section section-shell">
+        <div class="contact-topline"><p class="eyebrow">05 / Let’s connect</p><span class="contact-dot" aria-hidden="true"></span></div>
+        <div class="contact-content">
+          <h2>Have a good<br><em>question?</em></h2>
+          <div><p>I’m always interested in meeting thoughtful people and hearing about meaningful work.</p><a class="contact-email" href="mailto:hello@codwa07.dev">hello@codwa07.dev <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <div class="contact-footer">
+          <div class="social-links"><a href="https://github.com/codwa07" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/codwa07/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div>
+          <p>© <span data-year></span> Codwa07. Built with intention.</p>
+          <a class="back-to-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
