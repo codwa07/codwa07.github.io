@@ -3,166 +3,99 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Codwa07 — a digital resume and portfolio.">
-    <meta name="theme-color" content="#f4f1eb">
-    <title>Codwa07 — Digital Resume</title>
+    <meta name="description" content="Codi White — mobile software engineering, systems modernization, and professional background.">
+    <meta name="theme-color" content="#f7f8fa">
+    <title>Codi White — Mobile Software Engineer</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body>
+  <body class="landing-page">
     <a class="skip-link" href="#main-content">Skip to content</a>
-
-    <header class="site-header" data-header>
-      <a class="wordmark" href="#top" aria-label="Codwa07 home">
-        <span class="wordmark-mark" aria-hidden="true">c</span>
-        <span>codwa<span class="wordmark-number">07</span></span>
-      </a>
-
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
-        <span class="menu-toggle-label">Menu</span>
-        <span class="menu-toggle-icon" aria-hidden="true"><i></i><i></i></span>
-      </button>
-
-      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#work">Work</a>
-        <a href="#contact">Contact</a>
-        <a class="nav-resume" href="#contact"><span>Let’s talk</span><span aria-hidden="true">↗</span></a>
-      </nav>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="#top" aria-label="Codi White home">
+          <span class="brand-mark" aria-hidden="true">C</span>
+          <span class="brand-name">Codi <span>White</span></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+          <i aria-hidden="true"></i>
+        </button>
+        <div class="header-tools">
+          <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+            <a href="#about">About</a>
+            <a href="resume/">Resume</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to dark mode">
+            <span class="theme-icon" aria-hidden="true">◐</span><span data-theme-label>Dark mode</span>
+          </button>
+        </div>
+      </div>
     </header>
 
     <main id="main-content">
-      <section id="top" class="hero section-shell">
-        <div class="hero-copy">
-          <p class="eyebrow hero-eyebrow"><span class="eyebrow-dot"></span>Digital resume / 2024—present</p>
-          <h1>Hi, I’m<br><span class="outline-text">Codwa</span><span class="accent-mark">✳</span></h1>
-          <p class="hero-intro">A thoughtful builder creating useful, clear, and memorable digital experiences.</p>
-          <div class="hero-actions">
-            <a class="button button-dark" href="#experience">View experience <span aria-hidden="true">↓</span></a>
-            <a class="text-link" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+      <section id="top" class="landing-hero shell">
+        <div class="landing-copy">
+          <p class="kicker"><span class="status-dot"></span> Welcome</p>
+          <h1>Hi, I’m Codi <span>White.</span></h1>
+          <p class="landing-lede">A mobile software engineer focused on dependable products, thoughtful architecture, and modernizing the systems behind them.</p>
+          <div class="hero-links">
+            <a class="button button-primary" href="resume/">View my resume <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#contact">Get in touch</a>
           </div>
         </div>
-        <div class="hero-aside">
-          <div class="portrait-card" aria-label="Profile card">
-            <div class="portrait-orbit portrait-orbit-one"></div>
-            <div class="portrait-orbit portrait-orbit-two"></div>
-            <div class="portrait-initials" aria-hidden="true">C<span>W</span></div>
-            <span class="portrait-label">Available for<br>interesting work</span>
-            <span class="portrait-index">01 / 05</span>
-          </div>
-          <p class="hero-note">Based wherever good work happens<br><span>Currently open to new opportunities</span></p>
+        <div class="landing-note">
+          <span class="landing-note-line" aria-hidden="true"></span>
+          <p>This site is a living record of the work I care about and the direction I’m heading next.</p>
         </div>
-        <div class="scroll-cue" aria-hidden="true"><span>Scroll to explore</span><i></i></div>
       </section>
 
-      <section id="about" class="content-section section-shell">
-        <div class="section-heading">
-          <p class="section-number">01</p>
-          <p class="eyebrow">The short version</p>
-        </div>
-        <div class="about-grid">
+      <section id="about" class="landing-about">
+        <div class="shell landing-about-grid">
+          <p class="eyebrow">A quick introduction</p>
           <div>
-            <h2>I make the complicated<br><em>feel simple.</em></h2>
-          </div>
-          <div class="about-copy">
-            <p class="lede">I’m a curious, detail-oriented professional who enjoys turning open questions into clear paths forward.</p>
-            <p>My work sits at the intersection of strategy, technology, and communication. I care about the details, but I’m always looking for the bigger picture: what is the real problem, who are we solving it for, and how can we make the result better?</p>
-            <a class="text-link" href="#contact">More about my approach <span aria-hidden="true">↗</span></a>
-          </div>
-        </div>
-        <div class="principles" aria-label="Working principles">
-          <div class="principle"><span>01</span><strong>Stay curious</strong><p>Ask better questions before reaching for answers.</p></div>
-          <div class="principle"><span>02</span><strong>Make it clear</strong><p>Good work should be easy to understand and use.</p></div>
-          <div class="principle"><span>03</span><strong>Leave it better</strong><p>Improve the system, not just the immediate output.</p></div>
-        </div>
-      </section>
-
-      <section id="experience" class="content-section section-shell section-tinted">
-        <div class="section-heading">
-          <p class="section-number">02</p>
-          <p class="eyebrow">Where I’ve been</p>
-        </div>
-        <div class="section-intro-row">
-          <h2>Experience that<br><em>moves things forward.</em></h2>
-          <p>Selected roles and projects. This is the space to add the details that matter most: outcomes, ownership, and the difference the work made.</p>
-        </div>
-        <div class="timeline">
-          <article class="timeline-item">
-            <div class="timeline-date">2024 — Now</div>
-            <div class="timeline-role"><h3>Your current role</h3><p class="company">Company name <span>•</span> Location / Remote</p></div>
-            <p class="timeline-description">A concise description of your scope, the problems you own, and one measurable result. Keep this to two or three lines so the strongest work stands out.</p>
-            <span class="timeline-arrow" aria-hidden="true">↗</span>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-date">2022 — 2024</div>
-            <div class="timeline-role"><h3>Previous role</h3><p class="company">Company name <span>•</span> Location / Remote</p></div>
-            <p class="timeline-description">Use this entry for the work that shows how you think, collaborate, and create momentum. Replace this placeholder with your strongest accomplishment.</p>
-            <span class="timeline-arrow" aria-hidden="true">↗</span>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-date">Earlier</div>
-            <div class="timeline-role"><h3>Earlier experience</h3><p class="company">Company name <span>•</span> Location / Remote</p></div>
-            <p class="timeline-description">A short, high-signal summary of the experience that shaped your perspective and the skills you bring to the table today.</p>
-            <span class="timeline-arrow" aria-hidden="true">↗</span>
-          </article>
-        </div>
-      </section>
-
-      <section id="work" class="content-section section-shell">
-        <div class="section-heading">
-          <p class="section-number">03</p>
-          <p class="eyebrow">Selected work</p>
-        </div>
-        <div class="section-intro-row work-intro">
-          <h2>A few things<br><em>worth sharing.</em></h2>
-          <p>Projects are where the thinking becomes tangible. Add case studies, launches, or experiments that show what you can do.</p>
-        </div>
-        <div class="project-grid">
-          <a class="project-card project-card-large" href="#contact">
-            <div class="project-art project-art-coral"><span class="art-window"><i></i><i></i><i></i><b>the idea<br>becomes real</b></span></div>
-            <div class="project-meta"><div><span class="project-type">01 / Case study</span><h3>Project name</h3></div><span class="project-link" aria-hidden="true">↗</span></div>
-          </a>
-          <a class="project-card" href="#contact">
-            <div class="project-art project-art-blue"><span class="art-lines"></span><span class="art-sun"></span><span class="art-caption">make space<br>for better ideas</span></div>
-            <div class="project-meta"><div><span class="project-type">02 / Initiative</span><h3>Project name</h3></div><span class="project-link" aria-hidden="true">↗</span></div>
-          </a>
-          <a class="project-card" href="#contact">
-            <div class="project-art project-art-yellow"><span class="art-stamp">BUILD<br>WITH<br>CARE</span><span class="art-scribble">✳</span></div>
-            <div class="project-meta"><div><span class="project-type">03 / Experiment</span><h3>Project name</h3></div><span class="project-link" aria-hidden="true">↗</span></div>
-          </a>
-        </div>
-      </section>
-
-      <section class="skills-section section-shell">
-        <div class="section-heading"><p class="section-number">04</p><p class="eyebrow">What I bring</p></div>
-        <div class="skills-layout">
-          <h2>A practical mix of<br><em>skills and instincts.</em></h2>
-          <div class="skill-list">
-            <div class="skill-row"><span>01</span><strong>Strategy &amp; thinking</strong><p>Research · Planning · Systems thinking</p></div>
-            <div class="skill-row"><span>02</span><strong>Making &amp; building</strong><p>Design · Development · Prototyping</p></div>
-            <div class="skill-row"><span>03</span><strong>Working with people</strong><p>Communication · Collaboration · Leadership</p></div>
+            <h2>Thoughtful work,<br><em>clearly presented.</em></h2>
+            <p class="landing-body">I work across iOS and backend systems to build scalable features, strengthen engineering practices, and make complex product work easier to maintain. The resume has the details; this page is the starting point.</p>
+            <a class="inline-link" href="resume/">Read the full resume <span aria-hidden="true">↗</span></a>
           </div>
         </div>
       </section>
 
-      <section id="contact" class="contact-section section-shell">
-        <div class="contact-topline"><p class="eyebrow">05 / Let’s connect</p><span class="contact-dot" aria-hidden="true"></span></div>
-        <div class="contact-content">
-          <h2>Have a good<br><em>question?</em></h2>
-          <div><p>I’m always interested in meeting thoughtful people and hearing about meaningful work.</p><a class="contact-email" href="mailto:hello@codwa07.dev">hello@codwa07.dev <span aria-hidden="true">↗</span></a></div>
+      <section class="landing-links">
+        <div class="shell link-cards">
+          <a class="landing-card" href="resume/">
+            <span class="landing-card-number">01</span>
+            <strong>Resume</strong>
+            <p>Experience, capabilities, and selected projects.</p>
+            <span class="landing-card-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="landing-card" href="#contact">
+            <span class="landing-card-number">02</span>
+            <strong>Contact</strong>
+            <p>Have a question or an opportunity? Reach out.</p>
+            <span class="landing-card-arrow" aria-hidden="true">↗</span>
+          </a>
         </div>
-        <div class="contact-footer">
-          <div class="social-links"><a href="https://github.com/codwa07" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/codwa07/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div>
-          <p>© <span data-year></span> Codwa07. Built with intention.</p>
-          <a class="back-to-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </section>
+
+      <section id="contact" class="landing-contact">
+        <div class="shell">
+          <p class="eyebrow">Let’s connect</p>
+          <div class="landing-contact-row">
+            <h2>Good conversations<br>start <em>somewhere.</em></h2>
+            <a class="contact-email" href="mailto:dev.cgwhite@gmail.com">dev.cgwhite@gmail.com <span aria-hidden="true">↗</span></a>
+          </div>
+          <footer class="site-footer">
+            <div class="footer-links"><a href="https://github.com/codwa07" target="_blank" rel="noreferrer">GitHub ↗</a>            <a href="https://linkedin.com/in/codi-white-007690222" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+            <span>© <span data-year></span> Codi White</span>
+            <a href="#top">Back to top ↑</a>
+          </footer>
         </div>
       </section>
     </main>
-
     <script src="js/scripts.js"></script>
   </body>
 </html>
